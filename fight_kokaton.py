@@ -211,8 +211,8 @@ def main():
                     bird.change_img(6, screen)  # 練習3:よろこびエフェクト
                     break
 
-        bombs = [bomb for bomb in bombs if bomb is not None]
-        beams = [beam for beam in beams if beam is not None]
+        # bombs = [bomb for bomb in bombs if bomb is not None]
+        # beams = [beam for beam in beams if beam is not None]
 
         key_lst = pg.key.get_pressed()
         bird.update(key_lst, screen)
